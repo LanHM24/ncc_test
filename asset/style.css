@@ -1,0 +1,84 @@
+
+.container {
+    display: flex; /* hoặc inline-flex */
+  }
+  .sidebar-left{
+    background-color: black;
+    height: 100vh;
+    width: 10vh;
+}
+.sidebar-title{
+    color: rgb(250, 250, 250);
+    display: grid;
+    border: solid 1px;
+    line-height: 5vh;
+    text-align: center;
+}
+.sidebar-title:hover{
+    color: rgb(250, 250, 250);
+    display: grid;
+    border: solid 1px;
+    line-height: 5vh;
+    background-color: rgb(47, 47, 47);
+    
+}
+.logo img{
+    display: block; margin-left: auto; margin-right: auto;
+    width: 10%;
+}
+.text1{
+    background-color: rgb(183, 178, 172);
+
+}
+.text1 h2,p{
+    text-align: center;
+   
+    
+}
+.text1 p{
+    margin : 0 50vh;
+    text-align: center;
+   
+}
+/* review */
+
+.Comments {
+    text-align: left;
+    box-shadow: lightgrey 0px 1px 10px 0px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.imgcostumer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.star i {
+    color: #cd0473;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.infcostumer {
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.Comments p {
+    font-size: 13px;
+    color: gray;
+    line-height: 20px;
+}
+
+.imgcostumer img {
+    border: 10px solid white;
+    border-radius: 225%;
+}
+
+.names-costumer {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
