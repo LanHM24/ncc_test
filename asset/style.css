@@ -5,7 +5,7 @@
   .sidebar-left{
     background-color: black;
     height: 100vh;
-    width: 10vh;
+    width: 40vh;
 }
 .sidebar-title{
     color: rgb(250, 250, 250);
@@ -44,7 +44,7 @@
 
 .Comments {
     text-align: left;
-    box-shadow: lightgrey 0px 1px 10px 0px;
+  
     padding: 5px;
     border-radius: 3px;
 }
@@ -65,20 +65,30 @@
     font-size: 19px;
     font-weight: bolder;
 }
-
-.Comments p {
-    font-size: 13px;
-    color: gray;
-    line-height: 20px;
+.Comments {
+    display:inline;
 }
-
+.Comments .p1 {
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+}
 .imgcostumer img {
     border: 10px solid white;
-    border-radius: 225%;
+    height: 78%;
+    /* border-radius: 225%; */
 }
 
 .names-costumer {
     margin-top: 20px;
     font-size: 19px;
     font-weight: bold;
+}
+.item{
+    display:flex;
+}
+.Comments .p2{
+text-align: justify;
+    margin-left: -14vh;
 }
